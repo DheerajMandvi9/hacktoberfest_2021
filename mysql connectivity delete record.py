@@ -1,10 +1,5 @@
 import mysql.connector
-mydb=mysql.connector.connect(host="localhost",
-                             user="root",
-                             passwd="mandvi",
-                             auth_plugin='mysql_native_password',
-                             database="school")
-print(mydb)
+mydb=mysql.connector.connect(
 mycursor=mydb.cursor()
 ch='y'
 while(ch=='y' or ch=='Y'):
